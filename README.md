@@ -23,7 +23,7 @@ The gem uses a client model to query against the API. So, you need a API key for
 An example :
 
     id_channels = ["UCudKvbd6gvbm5UCYRk5tZKA"] # Array of channel id
-    api_key = "YOUR_API_KEY"
+    api_key = "YOUR_API_KEY" # replace by your API key
     topVideos = TopVideo.new(api_key, channels)
     topVideos.videos.each do |x|
         puts x.video.title # title of the video
