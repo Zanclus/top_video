@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'top_video'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2015-10-26'
   s.summary     = "Retrieve rising videos from your favorite music channels"
   s.description = "Using Youtube API, top_video is a gem which will allow you to retrieve rising videos from your favorite music channels with a release date less than one month"
